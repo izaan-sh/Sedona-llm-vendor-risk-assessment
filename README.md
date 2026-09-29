@@ -52,7 +52,7 @@ The whole system runs inside a single university-provisioned VM boundary.
 | **Deployment** | Ubuntu VM, T4-class GPU, 64 GB RAM, fully offline |
 
 <p align="center">
-  <img src="docs/architecture.png" alt="Sedona architecture" width="900">
+  <img width="1617" height="702" alt="image" src="https://github.com/user-attachments/assets/a7d2d7b0-feb7-4631-b53f-544c4a835a3e" />
   <br><em>Figure 1: Sedona system architecture inside the VM production boundary.</em>
 </p>
 
