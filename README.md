@@ -25,6 +25,8 @@ Reviewing a HECVAT is slow. There are 267 controls across 25 sections, and each 
 <img width="1521" height="662" alt="Screenshot 2026-09-29 221438" src="https://github.com/user-attachments/assets/ac043ffb-658c-4af6-ace2-ace78bb40152" />
 
 
+
+
 | Layer | Tech |
 |---|---|
 | LLM | Gemma 3 4B via llama-cpp-python (Ollama as CPU fallback) |
