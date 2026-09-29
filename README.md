@@ -90,7 +90,7 @@ Each HECVAT control is assessed in two layers, handled in a **single LLM inferen
 
 ### Phase 4: Reporting
 - Produces a written risk assessment with traceability from each risk statement to the source answer and policy.
-- Exports timestamped reports as **PDF, Excel and JSON**.
+- Exports timestamped reports as **PDF and PPT**.
 
 ---
 
