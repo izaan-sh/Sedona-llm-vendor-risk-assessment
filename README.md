@@ -24,7 +24,7 @@ Reviewing a HECVAT is slow. There are 267 controls across 25 sections, and each 
 
 <img width="1521" height="662" alt="Screenshot 2026-09-29 221438" src="https://github.com/user-attachments/assets/ac043ffb-658c-4af6-ace2-ace78bb40152" />
 
-
+*Flow: the assessor uploads a HECVAT through the interface, which is parsed and matched against policy context in ChromaDB. The local LLM evaluates each control, the RMF scoring module rates the risk, and the reporting service produces timestamped reports.*
 
 
 | Layer | Tech |
@@ -79,6 +79,8 @@ Both layers are handled in a single LLM inference pass rather than two separate 
 - Outputs are drafts for human reviewers, not decisions
 - Traceability is built in so reviewers can check where a claim came from
 - Hallucination risk is the main reliability concern, which is why the human review step matters
+- Vendor HECVAT submissions are processed at runtime only and are not stored; only the internal policy knowledge base is persistent
+
 
 ## What I learned
 
